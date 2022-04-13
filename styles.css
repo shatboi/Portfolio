@@ -70,12 +70,12 @@ section {
   width: 95%;
   height: 150px;
 }
-.project p::-webkit-scrollbar {
+.project p::-webkit-scrollbar-thumb, .school p::-webkit-scrollbar {
   width: 10px;
   border-radius: 20px;
   transform: translatex(-5px);
 }
-.project p::-webkit-scrollbar-thumb {
+.project p::-webkit-scrollbar-thumb, .school p::-webkit-scrollbar-thumb {
   background-color: #12181b;
   border-radius: 20px;
 }
@@ -87,17 +87,26 @@ section {
   border-radius: 5px;
 }
 
-.border {
+.border, .border2{
   display: flex;
   align-items: center;
   background: linear-gradient(-45deg, #ff35a4, #29fef6);
   background-size: 400% 400%;
   animation: gradient 5s ease infinite;
   border-radius: 10px;
+  justify-content: center;
+}
+
+.border{
   width: 402px;
   height: 520px;
 }
 
+.border2{
+  height: 305px;
+  width: 100%;
+  margin-block: 20px;
+}
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -108,4 +117,45 @@ section {
   100% {
     background-position: 0% 50%;
   }
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+}
+
+.school{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #2a2e35;
+  border-radius: 10px;
+  height: 300px;
+  width: 99%;
+}
+@media screen and (max-width: 700px) {
+  .school{
+    height: 400px;
+    flex-direction: column;
+  }
+  .school p{
+    width: 90% !important;
+  }
+  .border2{
+    height: 405px;
+    width: 100%;
+    margin-block: 20px;
+  }
+}
+.school img {
+  height: auto;
+  width: 50%;
+  margin-inline: 10px;
+  transform: scale(.6);
+}
+.school p {
+  width: 50%;
+  height: 70%;
+  overflow-y: scroll;
+  margin-inline: auto;
 }
