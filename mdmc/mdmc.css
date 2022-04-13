@@ -1,0 +1,289 @@
+/*
+   Litterally just copying Ashtons sites
+   Muse Dash Modding Community
+   Jeremiah Andrews
+   4/19/21
+   Filename: mdmc.css
+*/
+
+header {
+  background-color: #18082e;
+  position: absolute;
+  height: 75px;
+  width: 100%;
+  float: right;
+  margin-top: 0px;
+}
+
+body,
+html {
+  background-color: #27184d;
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+div.main {
+  margin-inline: auto;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #27184d;
+}
+::-webkit-scrollbar-thumb {
+  background: #3c286f;
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #18082e;
+}
+
+div.nav {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 36px;
+}
+
+div.home {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: helvetica;
+  color: white;
+  font-size: large;
+}
+.box {
+  margin-inline: auto;
+}
+.smallbox-grid li {
+  background-color: #3c286f;
+  position: relative;
+  left: 50%;
+  top: 250px;
+  transform: translate(-50%, -50%);
+  display: list-item;
+  font-family: helvetica;
+  width: 1000px;
+  height: 250px;
+  border-radius: 51px;
+  margin-bottom: 40px;
+}
+.box-grid {
+  padding: 0;
+}
+.box-grid li {
+  list-style: none;
+  background-color: #3c286f;
+  position: relative;
+  top: 310px;
+  display: inline-block;
+  font-family: helvetica;
+  width: 425px;
+  height: 400px;
+  border-radius: 51px;
+  margin: 30px;
+  margin-top: 90px;
+}
+.mod-1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.mod-2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.mod-3 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.smallbox-grid {
+  margin: auto;
+  padding: 0;
+  list-style: none;
+  display: list-item;
+  text-align: left;
+  width: auto;
+}
+.box-grid {
+  margin: auto;
+  padding: 0;
+}
+.info {
+  float: left;
+  padding-left: 25px;
+}
+
+.info h1 {
+  font-size: 48px;
+  margin-top: 10;
+  margin-bottom: 5;
+  font-weight: normal;
+  color: white;
+}
+
+.info h2 {
+  font-size: 40px;
+  margin: 0px;
+  color: rgba(255, 255, 255, 0.71);
+  font-weight: normal;
+}
+
+.info p {
+  font-size: 30px;
+  margin-top: 10px;
+  color: white;
+}
+h1.chart-intro {
+  position: absolute;
+  color: white;
+  font-family: helvetica;
+  left: 542px;
+  top: 107px;
+  left: 542px;
+  top: 107px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p.chart-intro {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: helvetica;
+  left: 542px;
+  top: 199px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+a.view {
+  font-size: 48px;
+  background-color: #1e0937;
+  float: right;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-family: helvetica;
+  font-size: 36px;
+  margin-top: 65px;
+  margin-right: 30px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+a.download {
+  background-color: #27184d;
+  float: left;
+  width: 175px;
+  height: 75px;
+  color: white;
+  text-decoration: none;
+  font-family: helvetica;
+  font-size: 36px;
+  margin-top: 280px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a.difficultybox {
+  background-color: #27184d;
+  float: right;
+  width: 175px;
+  height: 75px;
+  color: #41548d;
+  text-decoration: none;
+  font-family: helvetica;
+  font-size: 36px;
+  margin-top: 280px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p.difficulty {
+  position: absolute;
+  font-size: 25px;
+  color: #41548d;
+  text-decoration: none;
+  font-family: helvetica;
+  top: 299px;
+  left: 334px;
+}
+.star {
+  position: absolute;
+  top: 309px;
+  left: 323px;
+  width: 50px;
+  height: 50.1px;
+}
+.no-difficulty {
+  position: absolute;
+  top: 314px;
+  left: 269px;
+  width: 45px;
+  height: 45px;
+}
+.no-difficulty2 {
+  position: absolute;
+  top: 314px;
+  left: 382px;
+  width: 45px;
+  height: 45px;
+}
+div.cover {
+  position: absolute;
+  width: 225px;
+  height: 225px;
+  left: 114px;
+  top: -102px;
+  background: #000000;
+  border-radius: 50%;
+}
+img.cover {
+  position: relative;
+  left: 13px;
+  top: 13px;
+}
+.view:hover {
+  transform: scale(1.05);
+}
+
+img.yourmom {
+  padding-top: 12px;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+li {
+  display: inline-block;
+  padding: 7px 20px;
+}
+
+a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-family: helvetica;
+  font-size: 36px;
+  padding: 10px;
+}

@@ -1,0 +1,160 @@
+article {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  gap: 1px;
+}
+section {
+  display: flex;
+  width: 95%;
+  margin-inline: auto;
+  margin-bottom: 50px;
+}
+section.head {
+  background: linear-gradient(90deg, #a39964 0%, #e0dcc3 100%);
+  height: 350px;
+}
+section.bio {
+  justify-content: center;
+  background-color: rgba(209, 202, 201, 0.8);
+  height: 520px;
+  align-items: center;
+  margin: 0px;
+  gap: 50px;
+}
+section.schools {
+  background-color: rgba(209, 202, 201, 0.8);
+  height: 215px;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 0px;
+}
+.biobox {
+  background-color: #cbd3b8;
+  border: 7px solid #485133;
+  color: #2f2e2e;
+  width: 366px;
+  height: 310px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.namebox2,
+.namebox {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 214px;
+  height: 77px;
+  float: right;
+  transform: translate(15px, -36px);
+  margin: 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.bioboxbackground {
+  width: 387px;
+  height: 332px;
+  background-color: #2f2e2e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2.who {
+  color: rgb(110, 105, 104);
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+p.bio {
+  font-size: 1.6rem;
+  margin-top: 0px;
+}
+img.bio {
+  height: 350px;
+}
+p.name {
+  font-weight: 100;
+  font-size: 2rem;
+  color: rgb(110, 105, 104);
+  margin: 5px 0px 0px 10px;
+}
+p.role {
+  margin: 5px 0px 0px 10px;
+  font-size: 1.6rem;
+  font-weight: lighter;
+}
+.pics {
+  display: inline-flex;
+  gap: 70px;
+}
+.schoolinfo {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+}
+.schoolinfo p.body,
+.schoolinfo p.head {
+  margin: inherit;
+}
+hr {
+  background-color: #282626;
+  border-style: solid;
+  border-width: 1px;
+}
+.schoolinfo p.body {
+  font-style: normal;
+  font-size: 1.5rem;
+  width: 80%;
+  text-align: center;
+  color: rgb(47, 46, 46);
+  font-weight: lighter;
+}
+img.schoollogo {
+  border-radius: 50%;
+}
+.schoolbtn {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 202px;
+  height: 40px;
+  color: white;
+  border: solid 1px #2f2e2e;
+  background-color: #282626;
+  transition: ease-in-out 0.2s;
+  font-size: 1.6rem;
+}
+.schoolbtn:hover {
+  background-color: white;
+  color: #282626;
+}
+
+img.larrow {
+  transform: scale(25%) translate(-425px, 0);
+}
+img.rarrow {
+  transform: scale(25%) translate(425px, 0) rotate(180deg);
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 0 0 430px;
+  width: 30%;
+}
+h1.titlehead {
+  font-size: 5rem;
+  color: #282626;
+  font-weight: 400;
+  justify-content: flex-end;
+}
+p.title {
+  font-size: 1.6rem;
+  color: #282626;
+  font-weight: 100;
+}
