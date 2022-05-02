@@ -11,8 +11,25 @@
   text-decoration: none;
   color: inherit;
 }
+@media screen and (max-width: 1180px) {
+  .main-content {
+    width: 90%;
+  }
+  .projects {
+    width: 1vh;
+  }
+  section {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .border {
+    width: 322px;
+    height: auto;
+  }
+}
 @media screen and (max-width: 400px) {
-  .h1{
+  .h1 {
     font-size: 1rem;
   }
   .border {
@@ -40,6 +57,9 @@ nav {
   display: inline-flex;
   top: 0;
   margin: 0;
+}
+.img {
+  z-index: 15;
 }
 .main-content {
   margin-bottom: 30px;
@@ -84,12 +104,14 @@ section {
   width: 95%;
   height: 150px;
 }
-.project p::-webkit-scrollbar-thumb, .school p::-webkit-scrollbar {
+.project p::-webkit-scrollbar-thumb,
+.school p::-webkit-scrollbar {
   width: 10px;
   border-radius: 20px;
   transform: translatex(-5px);
 }
-.project p::-webkit-scrollbar-thumb, .school p::-webkit-scrollbar-thumb {
+.project p::-webkit-scrollbar-thumb,
+.school p::-webkit-scrollbar-thumb {
   background-color: #12181b;
   border-radius: 20px;
 }
@@ -101,7 +123,8 @@ section {
   border-radius: 5px;
 }
 
-.border, .border2{
+.border,
+.border2 {
   display: flex;
   align-items: center;
   background: linear-gradient(-45deg, #ff35a4, #29fef6, #ff35a4, #29fef6);
@@ -111,12 +134,12 @@ section {
   justify-content: center;
 }
 
-.border{
+.border {
   width: 402px;
   height: 520px;
 }
 
-.border2{
+.border2 {
   height: 305px;
   width: 100%;
   margin-block: 20px;
@@ -138,7 +161,7 @@ section {
   flex-direction: column;
 }
 
-.school{
+.school {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -148,13 +171,13 @@ section {
   width: 99%;
 }
 @media screen and (min-width: 1200px) {
-  .school{
+  .school {
     max-width: 1200px;
   }
-  .border2{
+  .border2 {
     max-width: 1200px;
   }
-  .school img{
+  .school img {
     max-width: 500px;
   }
 }
@@ -164,14 +187,14 @@ section {
     gap: 20px;
     align-items: center;
   }
-  .school{
+  .school {
     height: 400px;
     flex-direction: column;
   }
-  .school p{
+  .school p {
     width: 90% !important;
   }
-  .border2{
+  .border2 {
     height: 405px;
     width: 100%;
     margin-block: 20px;
@@ -181,7 +204,7 @@ section {
   height: auto;
   width: 50%;
   margin-inline: 10px;
-  transform: scale(.6);
+  transform: scale(0.6);
 }
 .school p {
   width: 50%;
@@ -203,27 +226,17 @@ section {
   height: 100px;
   z-index: 10;
 }
-@media screen and (max-width: 400px) {
-  .skills {
-    width: 100%;
-    gap: 3px;
-  }
-  .skills img{
-    transform: scale(.5); 
-    height: 69px;
-  }
-}
 
 .hexagon {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  width: 150px; 
-  height: 86.60px;
+  width: 150px;
+  height: 86.6px;
   background-color: #2a2e35;
-  margin: 43.30px 0;
-  transform: rotate(0deg)!important;
+  margin: 43.3px 0;
+  transform: rotate(0deg) !important;
 }
 
 .hexagon:before,
@@ -236,16 +249,15 @@ section {
   border-right: 75px solid transparent;
 }
 
-
 .hexagon:before {
   bottom: 100%;
-  border-bottom: 43.30px solid #2a2e35;
+  border-bottom: 43.3px solid #2a2e35;
 }
 
 .hexagon:after {
   top: 100%;
   width: 0;
-  border-top: 43.30px solid #2a2e35;
+  border-top: 43.3px solid #2a2e35;
 }
 .border3 {
   display: flex;
@@ -253,19 +265,18 @@ section {
   justify-content: center;
   position: relative;
   z-index: -6;
-  width: 155px; 
+  width: 155px;
   height: 89.49px;
   background: linear-gradient(-45deg, #ff35a4, #29fef6, #ff35a4, #29fef6);
   animation: gradient 5s ease infinite;
   margin: 44.74px 0;
 }
 
-
 .border3 {
   position: relative;
   background: linear-gradient(-45deg, #ff35a4, #29fef6, #ff35a4, #29fef6);
   animation: gradient 5s ease infinite;
-    background-size: 400% 400%;
+  background-size: 400% 400%;
   display: flex;
   align-content: center;
   justify-content: center;
